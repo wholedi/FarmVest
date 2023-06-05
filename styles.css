@@ -1,0 +1,98 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+ul,
+ol,
+li {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul[class],
+ol[class],
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+    margin: 0;
+}
+
+.wrapper {
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+html,
+body {
+    height: 100%;
+    line-height: 1;
+    font-family: "Spartan", sans-serif;
+    font-size: 18px;
+    background-color: #263238;
+}
+.main {
+    flex: 1 1 auto;
+}
+[class*="__container-content"]{
+    max-width: 1420px;
+    box-sizing: content-box;
+    margin: 0 auto;
+}
+
+[class*="__container"] {
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 0 30px;
+}
+
+@media (max-width: 1087px ) {
+    [class*="__container"] {
+        max-width: 970px;
+    }
+}
+
+@media (max-width: 991px ) {
+    [class*="__container"] {
+        max-width: 750px;
+    }
+}
+
+@media (max-width: 767px ) {
+    [class*="__container"] {
+        max-width: none;
+    }
+}
+
+/*------------------------------------------------------------------------------------------------------------------*/
+
+
