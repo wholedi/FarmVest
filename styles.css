@@ -198,7 +198,11 @@ body {
 }
 
 .intro__container-content {
-    padding: 250px 370px 0;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 230px 370px 0;
 }
 
 .intro__title {
@@ -219,10 +223,83 @@ body {
     text-align: center;
     font-size: 18px;
     line-height: 180%;
-    margin-top: 70px;
+    margin-top: 50px;
 }
 
-.wrapper__form{
+.wrapper__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 533px;
+    height: 76px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    margin-top: 40px;
+
+}
+
+.form{
+    width:325px;
+    height: 70px;
+    border: transparent;
+}
+
+::placeholder {
+    color: #263238;
+    font-size: 18px;
+}
+
+.button__form{
+    width: 163px;
+    margin-right: 6px;
+}
+.page-svg__full-star{
+    position: absolute;
+    left:20%;
+    top:47%;
+}
+
+.page-svg__dollar{
+    position: absolute;
+    left:5%;
+    top:85% ;
+}
+
+.page-svg__round{
+    position: absolute;
+    left: 25%;
+    top: 87%;
+}
+
+.page-svg__money{
+    position: absolute;
+    top:17%;
+    right: 30%;
+}
+
+.page-svg__N{
+    position: absolute;
+    top:45%;
+    right: 10%;
+}
+
+.page-svg__full-round{
+    position: absolute;
+    top:52%;
+    right: 25%;
+}
+
+.page-svg__star{
+    position: absolute;
+    right: 24%;
+    top: 90%;
+}
+
+.intro-brand__container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 100px;
 
 }
 
