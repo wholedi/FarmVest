@@ -146,20 +146,17 @@ body {
     letter-spacing: 1px;
 }
 
-.header__button {
-    font-family: "Lato", sans-serif;
-    height: 65px;
-    width: 145px;
-    border-radius: 10px;
-    color: white;
-}
-
 .header__actions {
     display: flex;
     gap: 10px
 }
 
 .button {
+    font-family: "Lato", sans-serif;
+    height: 65px;
+    width: 145px;
+    border-radius: 10px;
+    color: white;
     border: 1px solid #23B123;
     background-color: #23B123;
 }
@@ -197,12 +194,17 @@ body {
     display: none;
 }
 
-.intro__container-content {
+.intro{
     position: relative;
+    min-height: 1050px;
+}
+
+.intro__container-content {
+    max-width: 900px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 230px 370px 0;
+    padding: 250px 15px 0;
 }
 
 .intro__title {
@@ -223,7 +225,7 @@ body {
     text-align: center;
     font-size: 18px;
     line-height: 180%;
-    margin-top: 50px;
+    margin-top: 70px;
 }
 
 .wrapper__form {
@@ -234,7 +236,7 @@ body {
     height: 76px;
     background-color: #FFFFFF;
     border-radius: 10px;
-    margin-top: 40px;
+    margin-top: 50px;
 
 }
 
@@ -255,52 +257,53 @@ body {
 }
 .page-svg__full-star{
     position: absolute;
-    left:20%;
-    top:47%;
+    left:23%;
+    top:33%;
 }
 
 .page-svg__dollar{
     position: absolute;
-    left:5%;
-    top:85% ;
+    left:10%;
+    top:60% ;
 }
 
 .page-svg__round{
     position: absolute;
-    left: 25%;
-    top: 87%;
+    left: 23%;
+    top: 69%;
 }
 
 .page-svg__money{
     position: absolute;
-    top:17%;
+    top:12%;
     right: 30%;
 }
 
 .page-svg__N{
     position: absolute;
-    top:45%;
-    right: 10%;
+    top:33%;
+    right: 7%;
 }
 
 .page-svg__full-round{
     position: absolute;
-    top:52%;
-    right: 25%;
+    top:37%;
+    right: 20%;
 }
 
 .page-svg__star{
     position: absolute;
-    right: 24%;
-    top: 90%;
+    right: 20%;
+    top: 70%;
 }
 
 .intro-brand__container{
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    margin-top: 100px;
-
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:50px;
+    margin-top: 200px;
 }
 
 /*--------------------------------------------------------------------------------------------------*/
@@ -310,7 +313,7 @@ body {
         padding: 0 30px;
     }
 
-    .header__button {
+    .button {
         height: 45px;
         padding: 0 15px;
     }
@@ -322,6 +325,12 @@ body {
     .decor {
         width: 540px;
         height: 540px;
+    }
+
+    .button.button__form{
+        font-size: 18px;
+        width: 163px;
+        height: 65px;
     }
 }
 
