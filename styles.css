@@ -255,44 +255,42 @@ body {
     width: 163px;
     margin-right: 6px;
 }
-.page-svg__full-star{
+
+.svg{
     position: absolute;
+}
+
+.page-svg__full-star{
     left:23%;
     top:33%;
 }
 
 .page-svg__dollar{
-    position: absolute;
     left:10%;
     top:60% ;
 }
 
 .page-svg__round{
-    position: absolute;
     left: 23%;
     top: 69%;
 }
 
 .page-svg__money{
-    position: absolute;
     top:12%;
     right: 30%;
 }
 
 .page-svg__N{
-    position: absolute;
     top:33%;
     right: 7%;
 }
 
 .page-svg__full-round{
-    position: absolute;
     top:37%;
     right: 20%;
 }
 
 .page-svg__star{
-    position: absolute;
     right: 20%;
     top: 70%;
 }
@@ -435,12 +433,128 @@ body {
         border-radius: 10px;
         color: white;
     }
+
+    .page-svg__full-star{
+        left:15%;
+    }
+
+    .page-svg__round{
+        top:55%;
+        left:30%;
+    }
+
+    .page-svg__money{
+        top:16%;
+    }
+
+    .page-svg__full-round{
+        right: 20%;
+    }
+
+    .page-svg__N{
+        top:30%;
+        right: 10%;
+    }
+
+    .page-svg__star{
+        right: 15%;
+        top: 55%;
+    }
 }
 
 @media (max-width: 768px) {
     .decor {
         width: 380px;
         height: 380px;
+    }
+    .intro__title{
+        font-size: 60px;
+    }
+
+    .wrapper__form{
+        width: 433px;
+        height: 66px;
+    }
+
+    .form {
+        width: 225px;
+        height: 60px;
+    }
+
+    .button.button__form {
+        font-size: 16px;
+        width: 120px;
+        height: 55px;
+    }
+
+    .page-svg__dollar {
+        left: 3%;
+    }
+    .page-svg__star {
+        top: 52%;
+    }
+
+    .page-svg__round {
+        left: 15%;
+    }
+
+    .page-svg__N {
+        right: 3%;
+    }
+
+    .page-svg__full-star {
+        left: 5%;
+    }
+}
+
+@media (max-width: 567px){
+    .intro__title {
+        font-size: 50px;
+    }
+    .intro__text {
+        font-size: 16px;
+    }
+    .wrapper__form{
+        width: 300px;
+        height: 56px;
+    }
+
+    .form {
+        width: 125px;
+        height: 50px;
+    }
+
+    .button.button__form {
+        font-size: 16px;
+        width: 120px;
+        height: 50px;
+    }
+
+    .page-svg__money {
+        top: 13%;
+    }
+
+    .page-svg__full-star {
+        top: 30%;
+        left: 1%;
+    }
+
+    .page-svg__round {
+        top: 50%;
+        left: 5%;
+    }
+
+    .page-svg__star {
+         top: 60%;
+    }
+
+    .page-svg__dollar {
+        left: 35%;
+        top: 63%;
+    }
+
+    .intro-brand__container {
+        margin-top: 150px;
     }
 }
 
