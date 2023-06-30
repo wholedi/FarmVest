@@ -19,7 +19,7 @@ function moveImages(e) {
         const imageX = rect.left + rect.width / 2; // Получаем центр изображения по оси X
         const imageY = rect.top + rect.height / 2; // Получаем центр изображения по оси Y
 
-        const deltaX = (mouseX - imageX) * 0.03; // Задаем множитель, определяющий скорость движения
+        const deltaX = (mouseX - imageX) * 0.03;
         const deltaY = (mouseY - imageY) * 0.03;
 
         // Обновляем позицию изображения с учетом параллакс-эффекта
@@ -27,13 +27,13 @@ function moveImages(e) {
     });
 }
 
-window.addEventListener('mouseout', resetImages);
-
-function resetImages() {
-    images.forEach(image => {
-        image.style.transform = 'translate(0, 0)'; // Возвращаем изображения на их изначальные позиции
-    });
-}
+// window.addEventListener('mouseout', resetImages);
+//
+// function resetImages() {
+//     images.forEach(image => {
+//         image.style.transform = 'translate(0, 0)'; // Возвращаем изображения на их изначальные позиции
+//     });
+// }
 
 
 
