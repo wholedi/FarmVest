@@ -194,7 +194,7 @@ body {
     display: none;
 }
 
-.intro{
+.intro {
     position: relative;
     min-height: 1050px;
 }
@@ -240,8 +240,8 @@ body {
 
 }
 
-.form{
-    width:325px;
+.form {
+    width: 325px;
     height: 70px;
     border: transparent;
 }
@@ -251,56 +251,56 @@ body {
     font-size: 18px;
 }
 
-.button__form{
+.button__form {
     width: 163px;
     margin-right: 6px;
 }
 
-.svg{
+.svg {
     position: absolute;
 }
 
-.page-svg__full-star{
-    left:23%;
-    top:33%;
+.page-svg__full-star {
+    left: 23%;
+    top: 33%;
 }
 
-.page-svg__dollar{
-    left:10%;
-    top:60% ;
+.page-svg__dollar {
+    left: 10%;
+    top: 60%;
 }
 
-.page-svg__round{
+.page-svg__round {
     left: 23%;
     top: 69%;
 }
 
-.page-svg__money{
-    top:12%;
+.page-svg__money {
+    top: 12%;
     right: 30%;
 }
 
-.page-svg__N{
-    top:33%;
+.page-svg__N {
+    top: 33%;
     right: 7%;
 }
 
-.page-svg__full-round{
-    top:37%;
+.page-svg__full-round {
+    top: 37%;
     right: 20%;
 }
 
-.page-svg__star{
+.page-svg__star {
     right: 20%;
     top: 70%;
 }
 
-.intro-brand__container{
+.intro-brand__container {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-    gap:50px;
+    gap: 50px;
     margin-top: 200px;
 }
 
@@ -325,7 +325,7 @@ body {
         height: 540px;
     }
 
-    .button.button__form{
+    .button.button__form {
         font-size: 18px;
         width: 163px;
         height: 65px;
@@ -434,29 +434,29 @@ body {
         color: white;
     }
 
-    .page-svg__full-star{
-        left:15%;
+    .page-svg__full-star {
+        left: 15%;
     }
 
-    .page-svg__round{
-        top:55%;
-        left:30%;
+    .page-svg__round {
+        top: 55%;
+        left: 30%;
     }
 
-    .page-svg__money{
-        top:16%;
+    .page-svg__money {
+        top: 16%;
     }
 
-    .page-svg__full-round{
+    .page-svg__full-round {
         right: 20%;
     }
 
-    .page-svg__N{
-        top:30%;
+    .page-svg__N {
+        top: 30%;
         right: 10%;
     }
 
-    .page-svg__star{
+    .page-svg__star {
         right: 15%;
         top: 55%;
     }
@@ -467,11 +467,12 @@ body {
         width: 380px;
         height: 380px;
     }
-    .intro__title{
+
+    .intro__title {
         font-size: 60px;
     }
 
-    .wrapper__form{
+    .wrapper__form {
         width: 433px;
         height: 66px;
     }
@@ -490,6 +491,7 @@ body {
     .page-svg__dollar {
         left: 3%;
     }
+
     .page-svg__star {
         top: 52%;
     }
@@ -507,27 +509,29 @@ body {
     }
 }
 
-@media (max-width: 567px){
+@media (max-width: 567px) {
     .intro__title {
         font-size: 50px;
     }
+
     .intro__text {
         font-size: 16px;
     }
-    .wrapper__form{
-        width: 300px;
+
+    .wrapper__form {
+        width: 290px;
         height: 56px;
     }
 
     .form {
-        width: 125px;
+        width: 180px;
         height: 50px;
     }
 
     .button.button__form {
-        font-size: 16px;
-        width: 120px;
-        height: 50px;
+        font-size: 14px;
+        width: 80px;
+        height: 40px;
     }
 
     .page-svg__money {
@@ -545,7 +549,7 @@ body {
     }
 
     .page-svg__star {
-         top: 60%;
+        top: 60%;
     }
 
     .page-svg__dollar {
@@ -557,6 +561,71 @@ body {
         margin-top: 150px;
     }
 }
+
+/*---------------------------------------------------------------------------------*/
+.works__container-content {
+    padding-top: 200px;
+}
+
+.how-works {
+    min-height: 1337px;
+}
+
+
+.title {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 64px;
+    margin-top: 29px;
+    color: white;
+
+}
+
+.works__text {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 18px;
+    line-height: 177%;
+    color: #FFFFFF;
+    text-shadow: 1px 1px #000;
+}
+
+.works__list{
+    display: flex;
+    flex-direction: column;
+}
+
+.works__item{
+    display: flex;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.item__swg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 32px;
+    width: 110px;
+    height: 110px;
+    border-radius: 110px;
+    background: rgba(0, 128, 0, 0.10);
+}
+
+.item__block-text{
+    font-family: 'League Spartan', sans-serif;
+    color: #FFFFFF;
+}
+
+.item__title{
+    font-size: 20px;
+}
+
+.item__text{
+    font-size: 18px;
+    margin-top: 16px;
+    line-height: 180%;
+}
+
+
 
 
 
