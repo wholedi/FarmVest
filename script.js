@@ -27,13 +27,6 @@ function moveImages(e) {
     });
 }
 
-// window.addEventListener('mouseout', resetImages);
-//
-// function resetImages() {
-//     images.forEach(image => {
-//         image.style.transform = 'translate(0, 0)'; // Возвращаем изображения на их изначальные позиции
-//     });
-// }
 
 
 
