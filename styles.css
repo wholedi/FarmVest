@@ -309,7 +309,7 @@ body {
 }
 
 .how-works {
-    min-height: 1337px;
+    min-height: 1037px;
 }
 
 
@@ -381,8 +381,16 @@ body {
     overflow: hidden;
 
     background: rgba(255, 255, 255, 0.05);
-
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
 }
+
+.works__img-block.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 
 .img__decor-one {
     position: absolute;
@@ -652,8 +660,15 @@ body {
 
     .works__img-block {
         margin-top: 40px;
+        min-width: 500px;
         width: 500px;
+        height: 636px;
         margin-left: 0;
+    }
+
+    .img{
+        width: 410px;
+        height: 354px;
     }
 }
 
@@ -707,6 +722,24 @@ body {
 
     .intro-brand__container {
         margin-top: 150px;
+    }
+
+    .item__swg {
+        margin-right: 22px;
+        width: 70px;
+        height: 70px;
+    }
+
+    .works__img-block {
+        min-width: 300px;
+        width: 300px;
+        height: 436px;
+    }
+
+    .img {
+        width: 260px;
+        height: 254px;
+        margin: 100px 25px;
     }
 }
 
