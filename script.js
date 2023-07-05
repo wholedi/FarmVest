@@ -27,6 +27,28 @@ function moveImages(e) {
     });
 }
 
+function isElementInViewport(element) {
+    const rect = element.getBoundingClientRect();
+    return (
+        rect.top >= 0 &&
+        rect.left >= 0 &&
+        rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+        rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+    );
+}
+
+function showImageBlock() {
+    const imgBlock = document.querySelector('.works__img-block');
+    if (isElementInViewport(imgBlock)) {
+        imgBlock.classList.add('show');
+        window.removeEventListener('scroll', showImageBlock);
+    }
+}
+
+window.addEventListener('scroll', showImageBlock);
+
+
+
 
 
 
