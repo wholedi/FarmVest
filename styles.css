@@ -383,7 +383,7 @@ body {
     background: rgba(255, 255, 255, 0.05);
     opacity: 0;
     transform: translateY(50px);
-    transition: opacity 0.5s ease, transform 0.5s ease;
+    transition: opacity 0.1s ease, transform 0.8s ease;
 }
 
 .works__img-block.show {
@@ -412,6 +412,73 @@ body {
     /*right: 45px;*/
     margin: 166px 45px;
     border-radius: 20px;
+}
+
+.pathway{
+    min-height: 760px;
+}
+
+.pathway__container{
+    padding-top: 200px;
+    display: flex;
+    margin-right: auto;
+}
+
+.pathway__img-block{
+    position: relative;
+    min-width: 694px;
+    height: 760px;
+    border-radius: 20px;
+    margin-right: 100px;
+    overflow: hidden;
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.pathway__decor-one {
+    position: absolute;
+    bottom: -147px;
+    left: -369px;
+}
+
+.pathway__decor-two {
+    position: absolute;
+    bottom: -95px;
+    left: -267px;
+}
+
+.img__pathway{
+    position: absolute;
+    width: 614px;
+    height: 562px;
+    margin: 99px 40px;
+    border-radius: 20px;
+}
+
+.pathway__text{
+    font-size: 18px;
+    margin-top: 16px;
+    line-height: 180%;
+    color: #FFFFFF;
+}
+
+.select__block {
+    display: flex;
+    flex-direction: column;
+    margin-top: 48px;
+    gap: 24px;
+}
+
+.select{
+    width: 500px;
+    height: 90px;
+    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.05);
+    color: #FFF;
+    font-size: 24px;
+    font-family: "Spartan", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 177%;
 }
 
 /*--------------------------------------------------------------------------------------------------*/

@@ -27,7 +27,7 @@ function moveImages(e) {
     });
 }
 
-function isElementInViewport(element) {
+/*function isElementInViewport(element) {
     const rect = element.getBoundingClientRect();
     return (
         rect.top >= 0 &&
@@ -45,7 +45,17 @@ function showImageBlock() {
     }
 }
 
-window.addEventListener('scroll', showImageBlock);
+window.addEventListener('scroll', showImageBlock);*/
+window.addEventListener('scroll', function() {
+    const worksImgBlock = document.querySelector('.works__img-block');
+    const worksImgBlockPosition = worksImgBlock.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+
+    if (worksImgBlockPosition < windowHeight / 2) {
+        worksImgBlock.classList.add('show');
+    }
+});
+
 
 
 
