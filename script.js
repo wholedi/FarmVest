@@ -56,6 +56,33 @@ window.addEventListener('scroll', function() {
     }
 });
 
+window.addEventListener('scroll', function() {
+    const pathwayImgBlock = document.querySelector('.pathway__img-block');
+    const pathwayImgBlockPosition = pathwayImgBlock.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+
+    if (pathwayImgBlockPosition < windowHeight / 2) {
+        pathwayImgBlock.classList.add('show');
+    }
+});
+
+
+document.addEventListener("click", function(event) {
+    const dropdownList = document.getElementsByClassName("dropdown__list");
+    for (let i = 0; i < dropdownList.length; i++) {
+        dropdownList[i].style.display = "none";
+    }
+
+    const targetElement = event.target;
+    if (targetElement.classList.contains("dropdown__selected")) {
+        const dropdown = targetElement.parentNode;
+        const list = dropdown.getElementsByClassName("dropdown__list")[0];
+        list.style.display = "block";
+    }
+});
+
+
+
 
 
 
