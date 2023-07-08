@@ -81,7 +81,14 @@ document.addEventListener("click", function(event) {
     }
 });
 
-
+window.addEventListener('scroll', function() {
+    const imgChoose = document.querySelector('.img__choose');
+    const imgChoosePosition = imgChoose.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (imgChoosePosition < windowHeight / 2) {
+        imgChoose.classList.add('show');
+    }
+});
 
 
 
