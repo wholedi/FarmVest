@@ -472,6 +472,8 @@ body {
     color: #FFFFFF;
 }
 
+
+
 /*.select__block {*/
 /*    display: flex;*/
 /*    flex-direction: column;*/
@@ -615,6 +617,61 @@ body {
 .img__choose.show {
     opacity: 1;
     transform: translateY(0);
+}
+
+.customers{
+    min-height: 750px;
+}
+
+.customers__container{
+    padding-top: 200px;
+    max-width: 1526px;
+    margin-right: auto;
+}
+
+.customer__text-block{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.customer__text{
+    color: #FFF;
+    text-align: center;
+    font-family: "Spartan", sans-serif;
+    font-size: 18px;
+    width: 563px;
+    margin-top: 32px;
+    text-shadow: 1px 1px #000;
+    line-height: 177%;
+
+}
+
+.review__block{
+    display: flex;
+    margin-top: 48px;
+}
+
+.review__block_Tonia{
+    display: flex;
+    position: relative;
+    width: 686px;
+    height: 377px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.05);
+    margin-right: 48px;
+}
+
+
+
+.review__block_Grace{
+    display: flex;
+    position: relative;
+    width: 686px;
+    height: 377px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.05);
 }
 
 
