@@ -473,7 +473,6 @@ body {
 }
 
 
-
 /*.select__block {*/
 /*    display: flex;*/
 /*    flex-direction: column;*/
@@ -598,7 +597,7 @@ body {
 }
 
 .button__learn-more {
-    font-family: "Spartan",sans-serif;
+    font-family: "Spartan", sans-serif;
     font-size: 18px;
     margin-top: 40px;
     width: 222px;
@@ -619,24 +618,24 @@ body {
     transform: translateY(0);
 }
 
-.customers{
+.customers {
     min-height: 750px;
 }
 
-.customers__container{
+.customers__container {
     padding-top: 200px;
     max-width: 1526px;
     margin-right: auto;
 }
 
-.customer__text-block{
+.customer__text-block {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
 }
 
-.customer__text{
+.customer__text {
     color: #FFF;
     text-align: center;
     font-family: "Spartan", sans-serif;
@@ -647,12 +646,12 @@ body {
     line-height: 177%;
 }
 
-.review__block{
+.review__block {
     display: flex;
     margin-top: 48px;
 }
 
-.review__block_Tonia{
+.review__block_Tonia {
     display: flex;
     position: relative;
     width: 686px;
@@ -670,7 +669,7 @@ body {
     transform: translateY(0);
 }
 
-.review__block_Grace{
+.review__block_Grace {
     display: flex;
     position: relative;
     width: 686px;
@@ -687,15 +686,15 @@ body {
     transform: translateY(0);
 }
 
-.review__img{
+.review__img {
     position: absolute;
     width: 302px;
     height: 377px;
 }
 
-.review__text{
+.review__text {
     position: absolute;
-    top:32px;
+    top: 32px;
     left: 334px;
     color: #FFF;
     font-family: "Spartan", sans-serif;
@@ -705,26 +704,66 @@ body {
     padding-right: 15px;
 }
 
-.review__name{
+.review__name {
     position: absolute;
-    top:313px;
+    top: 313px;
     left: 334px;
     color: #FFF;
-    font-family: "Spartan",sans-serif;
+    font-family: "Spartan", sans-serif;
     font-size: 18px;
     font-weight: 600;
     line-height: 177%;
 }
 
-.button__all{
+.button__all {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.button__view{
+.button__view {
     width: 221px;
     margin-top: 48px;
+}
+
+.app {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.app__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    max-width: 1150px;
+    height: 370px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.07);
+    overflow: hidden;
+    padding: 20px;
+}
+
+.title__app {
+    margin-top: 70px;
+}
+
+.app__block-svg {
+    margin-top: 49px;
+    z-index: 2;
+}
+
+.app__decor-one {
+    position: absolute;
+    top: -72px;
+    z-index: 1;
+}
+
+.app__decor-two {
+    position: absolute;
+    top: -16px;
+    z-index: 1;
 }
 
 
@@ -764,7 +803,7 @@ body {
         height: 402px;
     }
 
-    .choose__text{
+    .choose__text {
         text-align: center;
     }
 
@@ -868,7 +907,7 @@ body {
         flex-direction: column;
     }
 
-    .choose__text-block{
+    .choose__text-block {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -876,30 +915,34 @@ body {
         max-width: 500px;
     }
 
-    .button__learn-more{
+    .button__learn-more {
         margin-left: 50px;
     }
 
-    .img__choose{
+    .img__choose {
         width: 694px;
         height: 760px;
         margin-left: 0;
         margin-top: 50px;
     }
 
-    .review__block{
+    .review__block {
         display: flex;
-       flex-direction: column;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
     }
 
-    .review__block_Tonia{
+    .review__block_Tonia {
         margin-right: 0;
     }
 
-    .review__block_Grace{
+    .review__block_Grace {
         margin-top: 48px;
+    }
+
+    .app__container{
+        width: 950px;
     }
 }
 
@@ -1023,9 +1066,13 @@ body {
         margin: 100px 45px;
     }
 
-    .img__choose{
+    .img__choose {
         width: 500px;
         height: 636px;
+    }
+
+    .app__container{
+        width: 750px;
     }
 }
 
@@ -1094,11 +1141,11 @@ body {
         height: 354px;
     }
 
-    .review__block_Tonia{
+    .review__block_Tonia {
         width: 540px;
     }
 
-    .review__block_Grace{
+    .review__block_Grace {
         width: 540px;
     }
 
@@ -1209,14 +1256,14 @@ body {
         margin: 100px 25px;
     }
 
-     .img__choose{
-         width: 300px;
-         height: 336px;
+    .img__choose {
+        width: 300px;
+        height: 336px;
     }
 
-     .customer__text{
+    .customer__text {
         width: 300px;
-     }
+    }
 
     .review__block_Tonia {
         width: 302px;
@@ -1228,7 +1275,7 @@ body {
         height: 700px;
     }
 
-    .review__img{
+    .review__img {
         border-radius: 20px;
     }
 
