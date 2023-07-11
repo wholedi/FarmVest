@@ -90,6 +90,25 @@ window.addEventListener('scroll', function() {
     }
 });
 
+window.addEventListener('scroll', function() {
+    const reviewBlockTonia = document.querySelector('.review__block_Tonia');
+    const reviewBlockToniaPosition = reviewBlockTonia.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (reviewBlockToniaPosition < windowHeight / 2) {
+        reviewBlockTonia.classList.add('show');
+    }
+});
+
+window.addEventListener('scroll', function() {
+    const reviewBlockGrace = document.querySelector('.review__block_Grace');
+    const reviewBlockGracePosition = reviewBlockGrace.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+    if (reviewBlockGracePosition < windowHeight / 2) {
+        reviewBlockGrace.classList.add('show');
+    }
+});
+
+
 
 
 
