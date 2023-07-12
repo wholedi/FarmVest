@@ -728,7 +728,6 @@ body {
 
 .app {
     padding-top: 200px;
-    padding-bottom: 200px;
 }
 
 .app__container {
@@ -765,6 +764,111 @@ body {
     top: -16px;
     z-index: 1;
 }
+
+.footer {
+    min-height: 460px;
+    width: 100%;
+    margin-top: 200px;
+    background: rgba(53, 64, 70, 0.50);
+}
+
+.footer__container {
+    display: flex;
+    max-width: 1526px;
+}
+
+.footer__logo {
+    max-width: 312px;
+    margin-top: 68px;
+}
+
+.footer__text {
+    margin-top: 24px;
+    color: #FFF;
+    font-family: "Spartan", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 177%;
+}
+
+.footer__form {
+    margin-top: 68px;
+    margin-left: 50px;
+}
+
+.form__text {
+    max-width: 438px;
+    color: #FFF;
+    font-family: "Spartan", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 177%;
+}
+
+#footer__form {
+    margin-top: 24px;
+}
+
+.footer__follow {
+    margin-top: 68px;
+    margin-left: 50px;
+}
+
+.follow__text {
+    color: #FFF;
+    font-family: "Spartan", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.footer__call {
+    margin-top: 68px;
+    margin-left: 25px;
+}
+
+.call__text {
+    color: #FFF;
+    font-family: "Spartan", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+
+.call__tel {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+hr {
+    margin-top: 100px;
+    max-width: 1320px;
+}
+
+.info-footer__container {
+    margin-top: 56px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.info__text {
+    font-family: "Spartan", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.link__footer{
+    font-family: "Spartan",sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #FFFFFF;
+    margin-right: 40px;
+}
+
 
 
 /*--------------------------------------------------------------------------------------------------*/
@@ -813,6 +917,14 @@ body {
 
     .img__choose {
         margin-left: 125px;
+    }
+
+    .info-footer__container {
+        margin-top: 36px;
+    }
+
+    hr {
+        margin-top: 70px;
     }
 }
 
@@ -941,8 +1053,24 @@ body {
         margin-top: 48px;
     }
 
-    .app__container{
+    .app__container {
         width: 950px;
+    }
+
+    .info-footer__container {
+        margin-top: 26px;
+    }
+
+    hr {
+        margin-top: 50px;
+    }
+
+    #footer__form {
+        width: 490px;
+    }
+
+    .form__block{
+        width: 250px;
     }
 }
 
@@ -1071,8 +1199,69 @@ body {
         height: 636px;
     }
 
-    .app__container{
+    .app__container {
         width: 750px;
+    }
+
+    .title__app {
+        font-size: 48px;
+    }
+
+    .footer__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .footer__logo {
+       text-align: center;
+    }
+
+    .form__text {
+        text-align: center;
+    }
+
+    .footer__follow {
+        margin-left: 0;
+    }
+    .footer__call {
+        margin-left: 0;
+    }
+    .footer__form {
+        margin-left: 0;
+    }
+
+    .info-footer__container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .info__link{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap:30px;
+        margin-bottom: 30px;
+    }
+
+    .link__footer{
+        margin-right: 0;
+    }
+
+    .info__text {
+        margin-bottom: 30px;
+    }
+
+    .follow__text{
+        text-align: center;
+    }
+
+    .call__text{
+        text-align: center;
     }
 }
 
@@ -1147,6 +1336,14 @@ body {
 
     .review__block_Grace {
         width: 540px;
+    }
+
+    .app__container {
+        width: 540px;
+    }
+
+    .app__block-svg {
+        margin-top: 19px;
     }
 
 }
@@ -1285,8 +1482,26 @@ body {
     }
 
     .review__name {
-        top: 650px;
+        top: 550px;
         left: 34px;
+    }
+
+    .app__container {
+        width: 300px;
+    }
+
+    .title__app {
+        font-size: 38px;
+    }
+
+    .app__block-svg {
+        display: flex;
+        flex-direction: column;
+        gap: 5px;
+    }
+
+    #footer__form {
+        width: 290px;
     }
 }
 
